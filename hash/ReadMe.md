@@ -31,12 +31,14 @@ There are a number of parameters within **DAREL : Hash** that need to be set pri
 		Hash 2 through (n+1) = Hash of "leave one out" identifiers
 3. `FILE` 
 : Reads a hash definition file where any number of hashes or combinations can be defined
+
 *See the section titled **Permissable Identifiers** for a list of currently allowed identifiers*
 
 `hashConfigDef`: The definition of identifiers to be used in generating the hashes. Varies depending on the value for `hashConfig`.
 1. If `hashConfig = SINGLE` then set hashConfigDef to the space delimited list of identifiers to be used in the hash
 2. If `hashConfig = N_MINUS_1` then set hashConfigDef to a space delimited list of identifiers.
 3. If `hashConfig = FILE` then set hashConfigDef to a definition file located in the `&localDir`.
+
 *See the section titled **Permissable Identifiers** for a list of currently allowed identifiers*
 
 `systemKey`: *Optional* A key present in the `infileName` that serves as an internal system identifier. Will not be used in hashes but will be included in the local crosswalk output file.

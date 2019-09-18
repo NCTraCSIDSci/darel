@@ -15,4 +15,15 @@ The intention of the hashing process is to produce a single or set of hashes tha
 The collision process allows for the determination of what patients appear between different systems. The collision process is designed to run at a lead site that would receive all necessary hashes and perform the collisions. The output generated is a file that indicates what hashes occur at one or multiple sites and individual files for each site that descrive the collisions that occur. Because of the ability to generate multiple hashes through the hashing process above, users are able to weight the hashes used to provide a probability of a match between sites.
 
 
-### 
+### Academic Citations
+
+If your group uses DAREL in support of a research project, please include the appropriate citation to help acknowledge DAREL and it's development.
+
+#### For grant Submissions
+
+> DAREL is a combination tools and processes to support institutions in performing deterministic linkages between healthcare systems in a deidentified, secure manner. DAREL utilizes patient identifiers common between participating sites to produce encrypted keys representing that data. The deterministic process can be performed in either a direct or probabalistic manner. DAREL was developed at the University of North Carolina is supported by the National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, through Grant Award Number UL1TR002489.
+
+#### Acknowledgement of SMOREs in papers and presentations
+
+> DAREL is a combination of tools and processes to support institutions in performing deterministic linkages between healthcare systems in a deidentified, secure manner. DAREL was developed at the University of North Carolina is supported by the National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, through Grant Award Number UL1TR002489.
+

@@ -14,6 +14,8 @@ The intention of the hashing process is to produce a single or set of hashes tha
 
 The collision process allows for the determination of what patients appear between different systems. The collision process is designed to run at a lead site that would receive all necessary hashes and perform the collisions. The output generated is a file that indicates what hashes occur at one or multiple sites and individual files for each site that descrive the collisions that occur. Because of the ability to generate multiple hashes through the hashing process above, users are able to weight the hashes used to provide a probability of a match between sites.
 
+### Applied Cases
+The methodology within DAREL was piloted within the Carolinas Collaborative, a regional data research network across North and South Carolina. The specific use case was identifying overlap between institutions to determine the necessity of deduplicating patients when combining datasets from multiple institutions. The results of this pilot are available in the `AMIA-CI_CC_DEDUP_2018_v2.pdf` within this repository. These results were presented at the AMIA Clinical Informatics Conference in 2018.
 
 ### Academic Citations
 

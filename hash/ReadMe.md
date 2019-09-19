@@ -64,7 +64,14 @@ There are a number of parameters within **DAREL : Hash** that need to be set pri
 `systemKey`: *Optional* A key present in the `infileName` that serves as an internal system identifier. Will not be used in hashes but will be included in the local crosswalk output file.
 
 
-### Executing and Results
+### Testing Setup
+5 files are provided in the DAREL repository for testing purposes under the /hash/in/ and /hash/out/ paths.
+1) `/in/example_hashes.csv` : Example Hash Definitions for `hashConfig = FILE`
+2) `/in/pplUNCtest.csv` : Example identifier input for hashing
+3) `/out/UNC_HashDefinitions_pplUNCtest.csv` : Definitions used and ID's of hashes applied in the program
+4) `/out/UNC_HashOnly_pplUNCtest.csv` : The hashes generated from the data provided in pplUNCtest.csv
+5) `/out/UNC_HIPAA_pplUNCtest.csv` : The crosswalk file that contains all of the patient identifiers used and the hashes corresponding to them.
+
 
 ## Hash Configuration
 One of the capabilities of DAREL is to produce multiple hashes based on identifier input. The list fo ahshes generated can be explicitly defined via a "Hash Definition" file. If this methodology is utilized, the same definition file **MUST** be used at all participating sites.

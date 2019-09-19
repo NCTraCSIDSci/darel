@@ -23,7 +23,7 @@ If your group uses DAREL in support of a research project, please include the ap
 
 > DAREL is a combination tools and processes to support institutions in performing deterministic linkages between healthcare systems in a deidentified, secure manner. DAREL utilizes patient identifiers common between participating sites to produce encrypted keys representing that data. The deterministic process can be performed in either a direct or probabalistic manner. DAREL was developed at the University of North Carolina is supported by the National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, through Grant Award Number UL1TR002489.
 
-#### Acknowledgement of SMOREs in papers and presentations
+#### Acknowledgement of DAREL in papers and presentations
 
 > DAREL is a combination of tools and processes to support institutions in performing deterministic linkages between healthcare systems in a deidentified, secure manner. DAREL was developed at the University of North Carolina is supported by the National Center for Advancing Translational Sciences (NCATS), National Institutes of Health, through Grant Award Number UL1TR002489.
 

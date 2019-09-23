@@ -77,11 +77,13 @@ There are a number of parameters within **DAREL : Hash** that need to be set pri
 One of the capabilities of DAREL is to produce multiple hashes based on identifier input. The list fo ahshes generated can be explicitly defined via a "Hash Definition" file. If this methodology is utilized, the same definition file **MUST** be used at all participating sites.
 
 The format of the file is as follows:
+
+```
 HASH_ID | HASH_ENTITIES
---- | ---
 ALL | FIRST_NAME DATE_OF_BIRTH DATE_OF_SERVICE GENDER
 DATES_ONLY | DATE_OF_BIRTH DATE_OF_SERVICE
 MINUS_NAME | DATE_OF_BIRTH DATE_OF_SERVICE GENDER
+```
 
 **A row called *ALL* must be present and contain all of the potential identifiers provided in the input file**
 

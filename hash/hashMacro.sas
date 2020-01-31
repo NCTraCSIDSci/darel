@@ -4,6 +4,7 @@
 *		11-17-16 : Original Release
 *		06-24-19 : Revised to include additional piece hashes
 *		09-16-19 : Revised for dynamic or paramaterized construction of hashes
+*		01-31-20 : Added additional fields for partial first and last names
 */
 %global hash_keys;
 
@@ -67,6 +68,14 @@
 	%end;
 	%else %if &hashField eq ZIP_CODE %then %do;
 		%let values = %str(('ZIP_CODE','$5.','$5.','$5.',5));
+		%let valid = TRUE;
+	%end;
+	%else %if &hashField eq FIRST_NAME_FIRST3 %then %do;
+		%let values = %str(('FIRST_NAME_FIRST3','$3.','$3.','$3.',3));
+		%let valid = TRUE;
+	%end;
+	%else %if &hashField eq LAST_NAME_FIRST8 %then %do;
+		%let values = %str(('LAST_NAME_FIRST8','$8.','$8.','$8.',8));
 		%let valid = TRUE;
 	%end;
 	%if &valid eq TRUE %then %do;

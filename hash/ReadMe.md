@@ -104,6 +104,8 @@ STREET_ADDRESS | Patient's street address  - either current or at specific/multi
 ZIP_CODE | Patient's 5 digit zipcode | 5
 SSN4 | Last 4 digits of the patient's SocialS ecurity Number | 4
 PROVIDER_ID | A shared identifier between systems for a service or practitioner (ie DEA Number or National provider ID) | 15
+FIRST_NAME_FIRST3 | First 3 characters of a patient's first name | 3
+LAST_NAME_FIRST8 | First 8 characters of a patient's last name | 8
 
 ## Harmonization
 #### Missing Data

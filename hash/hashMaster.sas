@@ -2,9 +2,10 @@
 
 /*
 *	UNC De-identified Patient Hashing Algorithm 
-*/  %let version = 2.1.3;
+*/  %let version = 2.1.4;
 /*	@desc : Generates de-identified hashes of patient identifiers for de-duplication or linkage processes
 *	@authors : Robert Bradford, Wonhee Yang, Kira Bradford, Ashok Krishnamurthy 
+*	@contributors : Emily Pfaff, Sofia Dard
 *	@input : Formatted identified patient data CSV file
 *	@output : De-identified, encrypted hashes of patient identifiers
 *			1. Local crosswalk file with patient identifiers and hashes
@@ -14,6 +15,7 @@
 *		11-17-16 1.0.0 : Original Release
 *		06-24-19 2.0.0: Revised to include additional piece hashes
 *		09-16-19 2.1.3: Revised for dynamic or paramaterized construction of hashes
+*		01-31-20 2.1.4: Added additional fields for partial first and last names
 */
 
 %let localDir = H:\Collaborative DeDup ; /* Do not include trailing Slash */

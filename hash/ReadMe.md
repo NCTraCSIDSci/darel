@@ -308,7 +308,7 @@ Charatcers such as hyphens, commans, periods, apostrophes or other non A-Z chara
 > Mary-Joe becomes MaryJoe
 #### Dates
 Dates should be formatted as : 
-> MM-DD-YYYY
+> YYYY-MM-DD
 Dates should not include any time, day of the week or other erroneous information
 #### Middle Names 
 Middle Names should be restricted the first character of the middle name. Sites should be cautious and check that patient's middle initials are not concatenated onto their first name. If this occurs, additional work needs to be done to remove the middle initial from the first name.
